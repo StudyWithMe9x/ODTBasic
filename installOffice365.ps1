@@ -7,3 +7,4 @@ $exePackageToInstall = "$Path\setup.exe"
 $arguments = "/configure $Path\ODTBasic.xml" 
 
 Start-Process -FilePath $exePackageToInstall -ArgumentList $arguments -Wait
+exit
