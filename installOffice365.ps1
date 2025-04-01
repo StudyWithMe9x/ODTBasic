@@ -8,9 +8,9 @@ $arguments = "/configure $Path\ODTBasic.xml"
 
 Start-Process -FilePath $exePackageToInstall -ArgumentList $arguments -Wait
 
-$Path = "$($env:USERPROFILE)\Downloads"; $Installer = "active.zip"; $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip" -OutFile $Path\$Installer;
+$Path = "$($env:USERPROFILE)\Downloads"; $Installer = "Ohook_Activation_AIO.cmd"; $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest "https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/refs/heads/master/MAS/Separate-Files-Version/Activators/Ohook_Activation_AIO.cmd" -OutFile $Path\$Installer;
 <#Expand-Archive $Path\active.zip -DestinationPath $Path\active#>
 
 
-start $Path\active\Microsoft-Activation-Scripts-master\MAS\All-In-One-Version-KL\MAS_AIO.cmd
+start $Path\Ohook_Activation_AIO.cmd
 
