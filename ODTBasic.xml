@@ -1,19 +1,12 @@
-<Configuration ID="5994b1bf-9f01-442c-a7b9-9ce41f1029cc">
+<Configuration>
   <Add OfficeClientEdition="64" Channel="Current">
-    <Product ID="O365ProPlusRetail">
+    <Product ID="O365HomePremRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
       <ExcludeApp ID="OneDrive" />
       <ExcludeApp ID="OneNote" />
       <ExcludeApp ID="Outlook" />
-      <ExcludeApp ID="OutlookForWindows" />
       <ExcludeApp ID="Publisher" />
-      <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Bing" />
     </Product>
   </Add>
-  <Updates Enabled="TRUE" />
-  <RemoveMSI />
 </Configuration>
